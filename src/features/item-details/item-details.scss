@@ -1,0 +1,56 @@
+.item-details {
+  .item-gallery {
+    padding: 20px;
+    .grid{
+      padding:3px;
+    }
+    .thumb-main {
+      border: 1px solid #ededed;
+      height: 350px;
+      width: 350px;
+      background: #efefef;
+      margin-bottom: 15px;
+      border: 2px solid #ededed;
+    }
+    .grid-people {
+      padding: 2px;
+    }
+    .thumb {
+      height: 50px;
+      width: 50px;
+      margin-bottom: 0px;
+    }
+  }
+  .details {
+    padding: 20px;
+    text-transform: capitalize;
+    .item-name {
+      font-size: 14px;
+    }
+  }
+  .category {
+    margin-top: 10px;
+  }
+  .character {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  ul {
+    margin-top: 0px;
+    li {
+      margin: 0px;
+      list-style-type: none;
+      padding: 10px;
+      font-size: 14px;
+      text-transform: capitalize;
+      &:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    }
+  }
+}
+.item-gallery-mini {
+  padding: 2px 20px;
+  border-top: 1px solid #ccc;
+  background: #efefef;
+}

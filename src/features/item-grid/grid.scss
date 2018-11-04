@@ -1,0 +1,23 @@
+.grid {
+  padding: 10px;
+  .thumb {
+    border: 1px solid #ededed;
+    height: 170px;
+    width: 180px;
+    background: #efefef;
+    margin-bottom: 15px;
+  }
+  .name {
+    font-size: 14px;
+  }
+  .character {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+}
+a {
+  color: #565656;
+  :hover {
+    background-color: #f9f9f9;
+  }
+}
