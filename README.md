@@ -311,20 +311,15 @@ import { expect } from 'chai';
 and then use them in your tests like you normally do.
 
 
-## Docker Support
+## Docker Support 
 
+### Build your docker
 
-# Build your docker
 docker build -t simple-app .
-#            ^      ^           ^
-#          tag  tag name      Dockerfile location
 
-# run your docker
+###x run your docker
+
 docker run -p 3000:3000 simple-app
-#                 ^            ^
-#          bind the port    container tag
-#          to your host
-#          machine port   
 
 
 
