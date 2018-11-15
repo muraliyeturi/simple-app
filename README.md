@@ -311,6 +311,23 @@ import { expect } from 'chai';
 and then use them in your tests like you normally do.
 
 
+## Docker Support
+
+
+# Build your docker
+docker build -t simple-app .
+#            ^      ^           ^
+#          tag  tag name      Dockerfile location
+
+# run your docker
+docker run -p 3000:3000 simple-app
+#                 ^            ^
+#          bind the port    container tag
+#          to your host
+#          machine port   
+
+
+
 ## Making a Progressive Web App
 
 The production build has all the tools necessary to generate a first-class
